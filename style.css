@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    margin-top: 120px;
+    /* font-family: 'Ubuntu', sans-serif; */
+}
+
+.btn{
+    padding: 20px;
+    margin: 0 3px;
+    border-radius: 9px;
+    border: 2px solid black;
+    cursor: pointer;
+    width: 65px;
+    font-size: 18px;
+    background-color:rgb(134, 135, 132) ;
+}
+
+.row{
+    margin: 8px  0;
+}
+
+.row input{
+    width: 286px;
+    margin: 0;
+    font-size: 20px;
+    padding:10px 0px ;
+    border-radius: 5px;
+    border: 2px solid black;
+    background: rgb(204, 204, 204);
+}
+h1{
+    color: greenyellow;
+    margin: 30px;
+}
